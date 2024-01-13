@@ -13,5 +13,7 @@ Blood donation management system to practice SQL. Potentially will create GUI + 
     pip install -U Flask-SQLAlchemy
 
 ## How to run the flask environment
-**$ flask run** (if name of main app is "app.py")
+**$ flask run** (if name of main app is "app.py") 
+
+flask --app *insert name of main app* run
 
