@@ -1,4 +1,5 @@
 from flask import Flask
+from markupsafe import escape #used when allowing input or returning a value to prevent of code injection 
 # from flask_sqlalchemy import SQLAlchemy
 # from sqlalchemy.orm import DeclarativeBase
 
